@@ -1,4 +1,5 @@
 var express = require('express');
+var io = require('socket.io')();
 
 // Create the app
 var app = express();
