@@ -7,7 +7,7 @@
     "test": "karma start",
     "start": "node server.js"
   },
-  "author": "catfriend",
+  "author": "Elizabeth A. Kari and Mariam Camara",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.2",

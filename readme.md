@@ -1,1 +1,1 @@
-Boilerplate React App
+An app for support for survivor of female genital mutilation. It includes education, resources, a countdown function to remind women when it's time to change sanitary pads, and a chartroom for peer to peer support.

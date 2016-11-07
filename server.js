@@ -13,6 +13,18 @@ app.use(function (req, res, next) {
 }
 });
 
+
+io.on('connection', function(socket) {
+  console.log("we have a connection");
+	socket.on('new-message', function(msg) {
+    console.log(msg);
+		io.emit('receive-message', msg);
+	});
+  socket.on("test", function() {
+    console.log("mounted");
+  })
+});
+
 app.use(express.static('public'));
 
 app.listen(PORT, function() {
